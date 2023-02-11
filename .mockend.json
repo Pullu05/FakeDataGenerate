@@ -1,0 +1,36 @@
+{
+  "User": {
+    "firstName": {
+      "string": {}
+    },
+    
+    "lastName": {
+      "string": {}
+    },
+    
+    "password": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}"
+    },
+    
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+     "countryId": {
+      "int": {
+      "min": 1,
+        "max": 
+      }
+    },
+     "stateId": {
+      "int": {
+      "min": 1,
+        "max":2 }
+    },
+     "districtId": {
+      "int": {
+      "min": 1,
+        "max": 2}
+    },
+    
+  }
+}
